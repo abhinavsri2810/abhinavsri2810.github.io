@@ -1,54 +1,64 @@
-/* style.css */
-
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f7fa;
   margin: 0;
   padding: 0;
-  color: #333;
+  background-color: #0d1117;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 .container {
   max-width: 800px;
   margin: auto;
-  padding: 40px 20px;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
 }
 
 header {
-  text-align: center;
+  display: flex;
+  gap: 20px;
+  align-items: center;
   margin-bottom: 30px;
 }
 
-h1 {
-  color: #2c3e50;
-  font-size: 36px;
-  margin-bottom: 10px;
+.avatar {
+  width: 100px;
+  border-radius: 50%;
 }
 
-p {
-  font-size: 18px;
-  color: #555;
+.status {
+  color: #00ff88;
+  font-weight: bold;
 }
 
-h2 {
-  border-bottom: 2px solid #2980b9;
-  padding-bottom: 5px;
-  margin-top: 40px;
-  color: #2980b9;
-}
-
-ul {
-  list-style-type: disc;
-  margin-left: 20px;
-}
-
-a {
-  color: #2980b9;
+.socials a {
+  margin-right: 10px;
+  color: #58a6ff;
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
+h2 {
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background-color: #161b22;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+}
+
+button {
+  margin-top: 10px;
+  padding: 6px 10px;
+  background-color: #21262d;
+  color: white;
+  border: 1px solid #30363d;
+  cursor: pointer;
 }
