@@ -2,55 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Harshit | Cloud Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
     <header>
-      <h1>Harshit</h1>
-      <p>Cloud Support Associate Aspirant | BCA 3rd Year</p>
+      <img src="https://i.imgur.com/your-avatar.png" alt="Profile" class="avatar" />
+      <div>
+        <h1>Harshit</h1>
+        <p>Cloud Support Associate Aspirant</p>
+        <span class="status">Available ●</span>
+        <div class="socials">
+          <a href="https://github.com/YOURUSERNAME" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/YOURUSERNAME" target="_blank">LinkedIn</a>
+        </div>
+      </div>
     </header>
 
-    <section>
-      <h2>🚀 About Me</h2>
-      <p>I am a BCA student passionate about Cloud Engineering. Currently focused on AWS, Bash scripting, and Linux.</p>
+    <section id="about">
+      <h2>About Me</h2>
+      <p id="aboutText">
+        Hi! I'm Harshit, a BCA 3rd-year student passionate about Cloud Engineering. I work with Linux, Bash, AWS and love building real-world cloud scripts.
+      </p>
+      <button onclick="toggleAbout()">Show less about me</button>
     </section>
 
     <section>
-      <h2>🛠 Skills</h2>
+      <h2>Skill & Tools</h2>
+      <div class="skills">
+        <span>Linux</span>
+        <span>Bash</span>
+        <span>AWS</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Monitoring Tools</span>
+        <span>Vagrant</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
       <ul>
-        <li>Linux (Ubuntu CLI)</li>
-        <li>Bash Scripting</li>
-        <li>AWS (EC2, S3)</li>
-        <li>Monitoring Tools</li>
-        <li>Git & GitHub</li>
+        <li>
+          <strong>Server Health Monitoring Script</strong> —
+          <a href="https://github.com/YOURUSERNAME/server-monitor">GitHub</a>
+        </li>
+        <li>
+          <strong>Free RAM Monitor</strong> —
+          <a href="https://github.com/YOURUSERNAME/ram-monitor">GitHub</a>
+        </li>
       </ul>
     </section>
 
-    <section>
-      <h2>📁 Projects</h2>
-      <ul>
-        <li><strong>Server Health Monitoring Script</strong> – <a href="https://github.com/YOURUSERNAME/server-monitor">GitHub</a></li>
-        <li><strong>Free RAM Monitoring Tool</strong> – <a href="https://github.com/YOURUSERNAME/ram-monitor">GitHub</a></li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>📄 Resume</h2>
-      <p><a href="https://yourdomain.com/resume.pdf" target="_blank">Download Resume</a></p>
-    </section>
-
-    <section>
-      <h2>🔗 Links</h2>
-      <ul>
-        <li><a href="https://github.com/YOURUSERNAME">GitHub</a></li>
-        <li><a href="https://linkedin.com/in/YOURUSERNAME">LinkedIn</a></li>
-        <li>Email: your.email@example.com</li>
-      </ul>
-    </section>
+    <footer>
+      <p>Email: harshit@example.com</p>
+    </footer>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
